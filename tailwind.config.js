@@ -9,6 +9,12 @@ module.exports = {
         '90': '90%',
         'full': '100%',
       },
+      boxShadow: {
+        'pink': "0 25px 50px -12px rgba(255,67,97, 0.25)",
+      },
+      borderRadius: {
+        "20px": "20px"
+      }
     },
   },
   variants: {},

@@ -4,6 +4,7 @@ $pink: #FF4362;
 
 body, html {
     background-color: $white;
+    font-family: 'Mark Pro';
 }
 
 
@@ -12,8 +13,50 @@ body, html {
     height: 100vh;
 }
 
-#builder-header {
+.builder-header {
     height: 100px;
     border-bottom: 4px solid;
     border-color: $pink;
+}
+
+.path-image {
+    width: 45px;
+    height: 45px;
+}
+
+.bg-pink {
+    background-color: $pink;
+}
+
+.invert {
+    filter: invert(100%);
+}
+
+.invert-80 {
+    filter: invert(80%);
+}
+
+
+
+
+// === Markfonts
+
+@font-face {
+    font-family: 'Mark Pro';
+    src: url('/fonts/Mark Pro.tff');
+}
+
+@font-face {
+    font-family: 'Mark Pro Medium';
+    src: url('/fonts/Mark Pro Medium.tff');
+}
+
+@font-face {
+    font-family: 'Mark Pro Bold';
+    src: url('/fonts/Mark Pro Bold.tff');
+}
+
+@font-face {
+    font-family: 'Mark Pro Heavy';
+    src: url('/fonts/Mark Pro Heavy.tff');
 }
