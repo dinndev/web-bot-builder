@@ -14,6 +14,9 @@ module.exports = {
       },
       borderRadius: {
         "20px": "20px"
+      },
+      paddingLeft: {
+        "05": "5%"
       }
     },
   },
