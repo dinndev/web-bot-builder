@@ -28,12 +28,15 @@ body, html {
     height: 45px;
 }
 
+.builder-content-list {
+    margin: 10px 0 45px 0;
+}
+
 .bot-type {
     position: relative;
     width: 80px;
     height: 80px;
     font-size: 12px;
-    margin: 10px 0 0 20px;
     text-align: center;
     padding: 8px;
 
@@ -53,6 +56,11 @@ body, html {
 
 .bot-type-full {
     background: $yellow;
+}
+
+.box-template {
+    width: 130px;
+    height: 100px;
 }
 
 
