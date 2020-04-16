@@ -2,11 +2,13 @@ $offwhite: #FEFEE2;
 $pink: #FF4362;
 $darkblue: #080059;
 $yellow: #FFDE7D;
+$orange: #FF5A43;
 
 
 body, html {
     background: linear-gradient(180deg,  $offwhite, transparent);
     font-family: 'Mark Pro';
+    letter-spacing: -0.3px;
 }
 
 
@@ -25,6 +27,37 @@ body, html {
     width: 45px;
     height: 45px;
 }
+
+.bot-type {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    font-size: 12px;
+    margin: 10px 0 0 20px;
+    text-align: center;
+    padding: 8px;
+
+    .bot-type-title {
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        width: 100%;
+        font-weight: 500;
+    }
+
+    &.active {
+     border-color: $orange;
+     border-width: 1.5px;
+    }
+}
+
+.bot-type-full {
+    background: $yellow;
+}
+
+
+
+// templates
 
 .bg-pink {
     background-color: $pink;
